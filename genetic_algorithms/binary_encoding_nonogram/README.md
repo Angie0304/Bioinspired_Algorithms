@@ -12,12 +12,35 @@ binary_encoding_nonogram/
 └── requirements.txt
 ```
 
-## How it works 
+## How it works
 
-1. A random population of binary grids is generated as candidate solutions.  
-2. Each individual is evaluated using a fitness function based on row and column constraints, penalizing mismatches.  
-3. Parents are selected using stochastic binary tournament selection.  
+1. A random population of binary grids is generated.  
+2. Each individual is evaluated using a constraint-based fitness function.  
+3. Parents are selected via stochastic binary tournament selection.  
 4. Offspring are generated using n-point or uniform crossover.  
-5. Bit-flip mutation is applied with a fixed probability to maintain diversity.  
-6. The population is updated iteratively over multiple generations.  
-7. The algorithm stops when a valid solution is found or a stopping condition is reached.
+5. Bit-flip mutation is applied to maintain diversity in the population.  
+6. The population is updated over multiple generations.  
+7. The algorithm stops when a solution or a stopping condition is reached.
+
+## Usage 
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the notebook
+```bash
+jupyter notebook nonograma.ipynb
+```
+
+3. Output
+- Display intermediate and final Nonogram solutions
+- Show the fitness value of individuals across generations
+- Indicate the best solution found
+- Visualize the final grid configuration
+
+## Status 
+Complete
+

@@ -19,3 +19,16 @@ integer_encoding_sudoku/
 5. Mutation is applied by swapping or modifying values within non-fixed cells.  
 6. The population is updated over multiple generations.  
 7. The algorithm stops when a valid solution or a stopping condition is reached.
+
+## Usage 
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the notebook
+```bash
+jupyter notebook sudoku.ipynb
+```

@@ -8,7 +8,7 @@ his project implements a Genetic Algorithm with binary encoding to solve Nonogra
 binary_encoding_nonogram/
 ├── README.md              # Project documentation and usage guide
 ├── nonograma.ipynb        # Nonogram implementation
-├── reporte_nonograma.pdf  # Project report
+├── reporte_nonograma.pdf  # Report
 └── requirements.txt       # Project dependencies
 ```
 

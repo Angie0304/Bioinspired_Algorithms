@@ -9,7 +9,7 @@ binary_encoding_nonogram/
 ├── README.md              # Project documentation and usage guide
 ├── nonograma.ipynb        # Nonogram implementation
 ├── reporte_nonograma.pdf  # Report
-└── requirements.txt       # Project dependencies
+└── requirements.txt       # Dependencies
 ```
 
 ## How it works

@@ -32,3 +32,15 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook sudoku.ipynb
 ```
+
+## Output
+
+The program will:
+
+- Display the evolution of solutions across generations  
+- Show the fitness value based on constraint violations  
+- Output the best Sudoku grid found  
+- Indicate whether a valid solution was reached
+
+## Status
+Complete

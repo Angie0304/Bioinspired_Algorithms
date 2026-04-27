@@ -13,8 +13,11 @@ binary_encoding_nonogram/
 ```
 
 ## How it works 
-1. A random population of binary grids is generated as candidate solutions.
-2. Each individual is evaluated using a fitness function based on row and column constraints.
-3. The best individuals are selected to produce new solutions through crossover and mutation.
-4. The population is updated and the process repeats for multiple generations.
-5. The algorithm stops when a valid solution or a stopping condition is reached.
+
+1. A random population of binary grids is generated as candidate solutions.  
+2. Each individual is evaluated using a fitness function based on row and column constraints, penalizing mismatches.  
+3. Parents are selected using stochastic binary tournament selection.  
+4. Offspring are generated using n-point or uniform crossover.  
+5. Bit-flip mutation is applied with a fixed probability to maintain diversity.  
+6. The population is updated iteratively over multiple generations.  
+7. The algorithm stops when a valid solution is found or a stopping condition is reached.
